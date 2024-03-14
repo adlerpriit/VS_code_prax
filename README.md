@@ -16,7 +16,7 @@ docker exec -it superset_tmp superset init
 docker exec -it superset_tmp superset load_examples
 ```
 
-Edit (Dockerfile) to include the additional packages we need and then run:
+Edit [Dockerfile](Dockerfile) to include the additional packages we need and then run:
 ```bash
 docker build -t my/superset:duckdb .
 ```
